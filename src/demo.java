@@ -16,7 +16,7 @@ public class demo {
             for (int j = i + 1; j < arr.length; j++) {
                 if (arr[i] == arr[j]) {
                     tapildi = true;
-                    System.out.println(arr[i]);
+                    System.out.println("cavab" + arr[i]);
                     break;
                 }
             }
@@ -25,7 +25,7 @@ public class demo {
             }
         }
         if (!tapildi) {
-            System.out.println("Duplicate yoxdur.");
+            System.out.println("Duplicate yoxdur");
         }
 
         scanner.close();
